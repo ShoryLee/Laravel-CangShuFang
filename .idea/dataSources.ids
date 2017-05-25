@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - books@localhost" uuid="deddac7a-92d5-4164-9b05-3637f054997e">
+    <database-info product="MySQL" version="5.7.14" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.4">
+      <schema id="1" name="books"/>
+      <table id="2" parent="1" name="book"/>
+      <table id="3" parent="1" name="comment"/>
+      <column id="4" parent="2" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+      </column>
+      <column id="5" parent="2" name="book_name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="6" parent="2" name="author">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="7" parent="2" name="translator">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="8" parent="2" name="publisher">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="9" parent="2" name="isbn">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="10" parent="2" name="pub_date">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="11" parent="2" name="pages">
+        <mandatory>1</mandatory>
+        <data-type>varchar(5)</data-type>
+      </column>
+      <column id="12" parent="2" name="price">
+        <mandatory>1</mandatory>
+        <data-type>varchar(5)</data-type>
+      </column>
+      <column id="13" parent="2" name="store_date">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="14" parent="2" name="category">
+        <mandatory>1</mandatory>
+        <data-type>varchar(5)</data-type>
+      </column>
+      <column id="15" parent="2" name="tags">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="16" parent="2" name="img">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="17" parent="2" name="url">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <key id="18" parent="2" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="19" parent="3" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+      </column>
+      <column id="20" parent="3" name="book_id">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+      </column>
+      <column id="21" parent="3" name="comment_by">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="22" parent="3" name="book_name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="23" parent="3" name="book_isbn">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="24" parent="3" name="content">
+        <mandatory>1</mandatory>
+        <data-type>varchar(200)</data-type>
+      </column>
+      <column id="25" parent="3" name="comment_time">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <key id="26" parent="3" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>

@@ -1,0 +1,66 @@
+/**
+*通用样式
+*/
+body {
+    /*font-family: 方正清刻本悦宋简体;*/
+    font-size: 16px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    overflow-x: hidden;
+    color: #000;
+    background-color: #FEFEFE;
+}
+.border-out {
+    box-shadow: 3px 3px 5px 5px #E0E0E0;
+}
+#logo {
+    width: 110px;
+    height: 45px;
+    background: url("../images/csf.png") no-repeat center center ;
+
+}
+.nav-index {
+    padding-left: 13%;
+    border: none;
+    background-color: #EEE;
+    z-index: 1;
+}
+#navbar-collapse-1 {
+    padding-left: 8%;
+}
+#thumb {
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    border: 1px solid #5e5e5e;
+}
+.log-reg {
+    padding-right: 13%;
+}
+.fa-btn {
+    margin-right: 6px;
+}
+a:link,a:visited {
+    color: #000;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+.copy-text {
+    margin: 0.5%;
+    padding-left: 17%;
+}
+.icons {
+    padding-left: 1%;
+}
+#toTop {
+    cursor: pointer;
+    display: none;
+}
+.clear-fix {
+    clear: both;
+}
