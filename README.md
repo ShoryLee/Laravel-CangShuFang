@@ -1,2 +1,21 @@
-# Hermit-Poet
-Learning Learning Learning...
+CangShuFang(藏书房)
+===
+    #### ——基于Laravel5.2开发的类豆瓣读书的书籍存储、展示、评论系统
+介绍
+---
+* 学习Laravel过程中写的一个简单的网站，踩了很多坑，也仍有许多不完善
+* 网站在本地开发，没有进行上线测试
+* 后端基于Laravel 5.2.x
+* 前端框架基于bootstrap 3.x
+* 也使用了jquery3.1.1，以及几个插件：sweetalert2, fullpage
+* 以及moment.js, char.js和创建动画效果的move.js等等
+* 整个过程都是参考慕课网(imooc.com) 天秤vs永恒 老是的教程，万分感谢
+
+功能
+---
+* 网站数据根绝豆瓣提供的API获取，因此严重依赖豆瓣网，但也因此省了不少事
+* 基本的书籍分类作为菜单，有搜索功能，以及搜索提示
+* 首页展示3行5列共15本书
+* 
+
+
